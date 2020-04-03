@@ -9,6 +9,16 @@ Damian Szklarczyk, Annika L Gable, David Lyon, Alexander Junge, Stefan Wyder, Ja
 *Nucleic Acids Research* (2018-11-22) <https://doi.org/gfz2jr>  
 DOI: [10.1093/nar/gky1131](https://doi.org/10.1093/nar/gky1131) · PMID: [30476243](https://www.ncbi.nlm.nih.gov/pubmed/30476243) · PMCID: [PMC6323986](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6323986)
 
+## Datasets
+
+This repository produces the following datasets:
+
+- [`data/score-matrices`](data/score-matrices) contains matrices of scores for each evidence channel.
+The rows and columns of these matrices are genes in the same order as the `protein.info` STRING download.
+
+Large files are stored using [Git LFS](https://git-lfs.github.com/).
+Properly cloning this repository requires having Git LFS installed.
+
 ## License
 
 STRING data used by this repository is released under a [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/) at <https://string-db.org/cgi/download.pl>.
