@@ -1,7 +1,16 @@
 ipywidgets~=7.5.1
+matplotlib~=3.2.1
 nbconvert~=5.6.1
+networkx==2.4
 notebook~=6.0.3
+numba~=0.48.0
 numpy~=1.18.2
 pandas~=1.0.3
+plotly~=4.5.2
+plotnine~=0.6.0
 requests~=2.23.0
+scikit-learn~=0.22.2
+seaborn~=0.10.0
 tqdm~=4.45.0
+XlsxWriter~=1.2.8
+git+https://github.com/palash1992/GEM.git@5da663255da28c433c42b296c8ceed7163f2d509

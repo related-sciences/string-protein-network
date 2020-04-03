@@ -1,5 +1,19 @@
 # STRING Protein Network
 
+This repository downloads and processes protein interaction data for human genes from [STRING](https://string-db.org/).
+Currently, v11.0 of the STRING database is analyzed.
+More information on STRING is available in:
+
+> **STRING v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets**  
+Damian Szklarczyk, Annika L Gable, David Lyon, Alexander Junge, Stefan Wyder, Jaime Huerta-Cepas, Milan Simonovic, Nadezhda T Doncheva, John H Morris, Peer Bork, … Christian von Mering  
+*Nucleic Acids Research* (2018-11-22) <https://doi.org/gfz2jr>  
+DOI: [10.1093/nar/gky1131](https://doi.org/10.1093/nar/gky1131) · PMID: [30476243](https://www.ncbi.nlm.nih.gov/pubmed/30476243) · PMCID: [PMC6323986](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6323986)
+
+## License
+
+STRING data used by this repository is released under a [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/) at <https://string-db.org/cgi/download.pl>.
+Files in [`data/string-downloads`](data/string-downloads) are directly from STRING.
+Other files in `data` have modifications performed by the notebooks in this repository.
 
 ## Development
 
