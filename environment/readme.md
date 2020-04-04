@@ -20,3 +20,11 @@ you can run the following command (from the repository's root directory):
 docker exec string-protein-network \
   pip install --upgrade --requirement environment/requirements.txt
 ```
+
+Open an interactive shell inside a running container,
+as the root user to allow systems administration.
+
+```shell
+docker exec --interactive --tty --user=root \
+  string-protein-network bash
+```
