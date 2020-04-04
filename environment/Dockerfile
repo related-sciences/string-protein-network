@@ -1,9 +1,11 @@
 FROM python:3.8-slim
 
+# install gcc to resolve https://github.com/giampaolo/psutil/issues/1714
 RUN apt-get update && \
     apt-get upgrade --yes && \
-    apt-get install --yes git
-
+    apt-get install --yes \
+    gcc \
+    git
 COPY requirements.txt requirements.txt
 RUN pip install --upgrade pip && \
   pip install --requirement requirements.txt && \

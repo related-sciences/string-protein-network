@@ -67,4 +67,4 @@ Then navigate to the following URL in your browser:
 
 You should see a Jupyter Notebook landing page where you can open, edit, and run any of the notebooks.
 
-When you are done, you shutdown the Jupyter notebook server and remove the Docker container by running `docker stop string-protein-network` in a new terminal.
+When you are done, you shutdown the Jupyter notebook server and remove the Docker container by running `docker stop string-protein-network` in a terminal.

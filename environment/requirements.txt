@@ -12,5 +12,6 @@ requests~=2.23.0
 scikit-learn~=0.22.2
 seaborn~=0.10.0
 tqdm~=4.45.0
+umap-learn[plot]~=0.4.0rc3
 XlsxWriter~=1.2.8
 git+https://github.com/palash1992/GEM.git@5da663255da28c433c42b296c8ceed7163f2d509
