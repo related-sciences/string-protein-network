@@ -1,0 +1,2 @@
+# ignore uncompressed edgelists which can be regenerated easily
+*edgelist.tsv

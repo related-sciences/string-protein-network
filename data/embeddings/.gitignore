@@ -1,0 +1,2 @@
+# ignore node2vec embeddings in messy, uncompressed format
+node2vec-*.txt
