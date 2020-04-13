@@ -3,6 +3,8 @@ import sys
 import urllib.request
 import typing
 
+import pandas as pd
+
 """type hint for path-like objects that will passthrough os.fspath."""
 PathLike = typing.Union[str, pathlib.Path]
 
@@ -33,3 +35,14 @@ def get_string_dataset_path(
         urllib.request.install_opener(opener)
         urllib.request.urlretrieve(url, path)
     return path
+
+
+def get_protein_info_df() -> pd.DataFrame:
+    """
+    Return `9606.protein.info.v11.0.txt.gz` as a dataframe.
+    Adds an index column for use as zero-indexed matrix lookup.
+    """
+    gene_path = get_string_dataset_path("protein.info")
+    gene_df = pd.read_csv(gene_path, sep='\t')
+    gene_df = gene_df.reset_index()
+    return gene_df
