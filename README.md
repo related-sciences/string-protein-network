@@ -19,11 +19,14 @@ The rows and columns of these matrices are genes in the same order as the `prote
 Large files are stored using [Git LFS](https://git-lfs.github.com/).
 Properly cloning this repository requires having Git LFS installed.
 
-## License
+## License Notice
 
-STRING data used by this repository is released under a [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/) at <https://string-db.org/cgi/download.pl>.
-Files in [`data/string-downloads`](data/string-downloads) are directly from STRING.
+Files in the [`data`](data) directory are released under a [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
+Files in [`data/string-downloads`](data/string-downloads) were downloaded directly from [STRING](https://string-db.org/).
 Other files in `data` have modifications performed by the notebooks in this repository.
+Please attribute [STRING](https://string-db.org/) and <https://github.com/related-sciences/string-protein-network> when reusing this data.
+
+All contents of this repository outside of the `data` directory are released under the Apache License Version 2.0, as specified in [`LICENSE.md`](LICENSE.md).
 
 ## Development
 
